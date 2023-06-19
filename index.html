@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>encriptador victor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="encriptar">
+<textarea 
+name="texto" 
+id="texto" 
+class="texto" 
+cols="30" 
+rows="10" 
+placeholder="escribe aqui"
+></textarea>
+      
+
+      <div class="terminos">Solo letras minusculas</div>
+      <div class="botones">
+        <button class="btn-encriptar" type="button" onclick= "encriptar()" >Encriptar</button>
+    <input type="button" class="btn-desencriptar" 
+    value="Desencriptar" onclick="desencriptar()">
+      </div>
+    </div>
+
+
+<div class="encriptado">
+    <img src="img/muñeco.png" alt="" id="muñeco">
+    <div class="mensaje-encriptado" id="mensaje-encriptado">
+    <h2 id="titulo-mensaje">Ningun Mensaje encontrado</h2>
+    <p id="parrafo">Ingresa el Texto que deseas Encriptar o Desencriptar</p>
+    
+     
+
+    
+    </div>
+    </div>
+</div>
+
+</body>
+<script src="index.js"></script>
+</html>
